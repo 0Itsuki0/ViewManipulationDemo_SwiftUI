@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		98373C402C2E8C3D004CC996 /* ViewManipulationDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98373C3F2C2E8C3D004CC996 /* ViewManipulationDemoApp.swift */; };
-		98373C422C2E8C3D004CC996 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98373C412C2E8C3D004CC996 /* ContentView.swift */; };
 		98373C442C2E8C3E004CC996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98373C432C2E8C3E004CC996 /* Assets.xcassets */; };
 		98373C472C2E8C3E004CC996 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98373C462C2E8C3E004CC996 /* Preview Assets.xcassets */; };
+		98373C4E2C2E8C50004CC996 /* DragToResizeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98373C4D2C2E8C50004CC996 /* DragToResizeDemo.swift */; };
+		98BB9E172C2EA24B00D8AC7A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 98BB9E162C2EA24B00D8AC7A /* README.md */; };
+		98BB9E192C2EA25400D8AC7A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 98BB9E182C2EA25400D8AC7A /* .gitignore */; };
+		98BB9E1C2C2EA2AC00D8AC7A /* dragToResize.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98BB9E1B2C2EA2AC00D8AC7A /* dragToResize.gif */; };
+		98BB9E1E2C2EA32800D8AC7A /* PinchToResizeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BB9E1D2C2EA32800D8AC7A /* PinchToResizeDemo.swift */; };
+		98BB9E212C2F78B400D8AC7A /* TwoFingerRotateDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BB9E202C2F78B400D8AC7A /* TwoFingerRotateDemo.swift */; };
+		98BB9E232C2F78BF00D8AC7A /* DragToRotateDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BB9E222C2F78BF00D8AC7A /* DragToRotateDemo.swift */; };
+		98BB9E262C2F7A9D00D8AC7A /* viewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BB9E252C2F7A9D00D8AC7A /* viewExtensions.swift */; };
+		98BB9E292C2F929700D8AC7A /* Magnify+Rotate+DragDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BB9E282C2F929700D8AC7A /* Magnify+Rotate+DragDemo.swift */; };
+		98BB9E2B2C2F92A000D8AC7A /* DragOnlyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BB9E2A2C2F92A000D8AC7A /* DragOnlyDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98373C3C2C2E8C3D004CC996 /* ViewManipulationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewManipulationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98373C3F2C2E8C3D004CC996 /* ViewManipulationDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewManipulationDemoApp.swift; sourceTree = "<group>"; };
-		98373C412C2E8C3D004CC996 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98373C432C2E8C3E004CC996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98373C462C2E8C3E004CC996 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98373C4D2C2E8C50004CC996 /* DragToResizeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragToResizeDemo.swift; sourceTree = "<group>"; };
+		98BB9E162C2EA24B00D8AC7A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		98BB9E182C2EA25400D8AC7A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		98BB9E1B2C2EA2AC00D8AC7A /* dragToResize.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dragToResize.gif; sourceTree = "<group>"; };
+		98BB9E1D2C2EA32800D8AC7A /* PinchToResizeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchToResizeDemo.swift; sourceTree = "<group>"; };
+		98BB9E202C2F78B400D8AC7A /* TwoFingerRotateDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoFingerRotateDemo.swift; sourceTree = "<group>"; };
+		98BB9E222C2F78BF00D8AC7A /* DragToRotateDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragToRotateDemo.swift; sourceTree = "<group>"; };
+		98BB9E252C2F7A9D00D8AC7A /* viewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewExtensions.swift; sourceTree = "<group>"; };
+		98BB9E282C2F929700D8AC7A /* Magnify+Rotate+DragDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Magnify+Rotate+DragDemo.swift"; sourceTree = "<group>"; };
+		98BB9E2A2C2F92A000D8AC7A /* DragOnlyDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragOnlyDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,9 @@
 		98373C332C2E8C3D004CC996 = {
 			isa = PBXGroup;
 			children = (
+				98BB9E1A2C2EA29400D8AC7A /* readmeAsset */,
+				98BB9E162C2EA24B00D8AC7A /* README.md */,
+				98BB9E182C2EA25400D8AC7A /* .gitignore */,
 				98373C3E2C2E8C3D004CC996 /* ViewManipulationDemo */,
 				98373C3D2C2E8C3D004CC996 /* Products */,
 			);
@@ -51,10 +72,13 @@
 		98373C3E2C2E8C3D004CC996 /* ViewManipulationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				98BB9E272C2F7DAD00D8AC7A /* Resize+Rotation+Repoisition */,
+				98BB9E242C2F78D700D8AC7A /* Resize */,
+				98BB9E1F2C2F788600D8AC7A /* Rotation */,
 				98373C3F2C2E8C3D004CC996 /* ViewManipulationDemoApp.swift */,
-				98373C412C2E8C3D004CC996 /* ContentView.swift */,
 				98373C432C2E8C3E004CC996 /* Assets.xcassets */,
 				98373C452C2E8C3E004CC996 /* Preview Content */,
+				98BB9E252C2F7A9D00D8AC7A /* viewExtensions.swift */,
 			);
 			path = ViewManipulationDemo;
 			sourceTree = "<group>";
@@ -65,6 +89,41 @@
 				98373C462C2E8C3E004CC996 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98BB9E1A2C2EA29400D8AC7A /* readmeAsset */ = {
+			isa = PBXGroup;
+			children = (
+				98BB9E1B2C2EA2AC00D8AC7A /* dragToResize.gif */,
+			);
+			path = readmeAsset;
+			sourceTree = "<group>";
+		};
+		98BB9E1F2C2F788600D8AC7A /* Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				98BB9E202C2F78B400D8AC7A /* TwoFingerRotateDemo.swift */,
+				98BB9E222C2F78BF00D8AC7A /* DragToRotateDemo.swift */,
+			);
+			path = Rotation;
+			sourceTree = "<group>";
+		};
+		98BB9E242C2F78D700D8AC7A /* Resize */ = {
+			isa = PBXGroup;
+			children = (
+				98BB9E1D2C2EA32800D8AC7A /* PinchToResizeDemo.swift */,
+				98373C4D2C2E8C50004CC996 /* DragToResizeDemo.swift */,
+			);
+			path = Resize;
+			sourceTree = "<group>";
+		};
+		98BB9E272C2F7DAD00D8AC7A /* Resize+Rotation+Repoisition */ = {
+			isa = PBXGroup;
+			children = (
+				98BB9E282C2F929700D8AC7A /* Magnify+Rotate+DragDemo.swift */,
+				98BB9E2A2C2F92A000D8AC7A /* DragOnlyDemo.swift */,
+			);
+			path = "Resize+Rotation+Repoisition";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +184,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BB9E192C2EA25400D8AC7A /* .gitignore in Resources */,
+				98BB9E172C2EA24B00D8AC7A /* README.md in Resources */,
 				98373C472C2E8C3E004CC996 /* Preview Assets.xcassets in Resources */,
 				98373C442C2E8C3E004CC996 /* Assets.xcassets in Resources */,
+				98BB9E1C2C2EA2AC00D8AC7A /* dragToResize.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +199,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98373C422C2E8C3D004CC996 /* ContentView.swift in Sources */,
+				98BB9E292C2F929700D8AC7A /* Magnify+Rotate+DragDemo.swift in Sources */,
+				98BB9E232C2F78BF00D8AC7A /* DragToRotateDemo.swift in Sources */,
+				98BB9E2B2C2F92A000D8AC7A /* DragOnlyDemo.swift in Sources */,
+				98BB9E212C2F78B400D8AC7A /* TwoFingerRotateDemo.swift in Sources */,
+				98BB9E1E2C2EA32800D8AC7A /* PinchToResizeDemo.swift in Sources */,
 				98373C402C2E8C3D004CC996 /* ViewManipulationDemoApp.swift in Sources */,
+				98BB9E262C2F7A9D00D8AC7A /* viewExtensions.swift in Sources */,
+				98373C4E2C2E8C50004CC996 /* DragToResizeDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

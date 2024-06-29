@@ -11,7 +11,9 @@ import SwiftUI
 struct ViewManipulationDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DragToRotateDemo()
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+                .background(Color.gray.opacity(0.2))
         }
     }
 }
