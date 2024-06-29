@@ -7,8 +7,11 @@
 ![](/readmeAsset/fullGestureComb.gif)
 ![](/readmeAsset/fullDragOnly.gif)
 
+Please check out [SwiftUI: Resizing, Rotating, Re-Positioning View Simultaneously 2 Ways](https://medium.com/@itsuki.enjoy/swiftui-resizing-rotating-re-positioning-view-simultaneously-2-ways-194b0c174e47) for more details!
 
-## Resize a view
+
+## Individual Manipulations
+### Resize a view
 
 - [Using Magnify Gesture](/ViewManipulationDemo/Resize/PinchToResizeDemo.swift)
 - [USing Drag Gesture](/ViewManipulationDemo/Resize/DragToResizeDemo.swift)
@@ -18,7 +21,7 @@
 
 Please check out [SwiftUI: User Resizable View 2 Ways](https://medium.com/@itsuki.enjoy/swiftui-user-resizable-view-2-ways-7bee4e5c8381) for more details!
 
-## Rotate a view
+### Rotate a view
 
 - [Using Rotate Gesture](/ViewManipulationDemo/Rotation/TwoFingerRotateDemo.swift)
 - [USing Drag Gesture](/ViewManipulationDemo/Rotation/DragToRotateDemo.swift)

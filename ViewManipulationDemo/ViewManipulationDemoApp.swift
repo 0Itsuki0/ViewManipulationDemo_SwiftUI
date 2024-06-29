@@ -11,9 +11,11 @@ import SwiftUI
 struct ViewManipulationDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            DragOnlyDemo()
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
-                .background(Color.gray.opacity(0.2))
+            NavigationStack {
+                ContentView()
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+            .background(Color.gray.opacity(0.2))
         }
     }
 }

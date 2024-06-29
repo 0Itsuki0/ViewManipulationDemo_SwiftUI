@@ -25,6 +25,7 @@
 		98BB9E312C3010F900D8AC7A /* pinchToResize.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98BB9E302C3010F900D8AC7A /* pinchToResize.gif */; };
 		98BB9E342C30110100D8AC7A /* dragToRotate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98BB9E322C30110100D8AC7A /* dragToRotate.gif */; };
 		98BB9E352C30110100D8AC7A /* twoFinterRotate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98BB9E332C30110100D8AC7A /* twoFinterRotate.gif */; };
+		98BB9E372C30CF2300D8AC7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BB9E362C30CF2300D8AC7A /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		98BB9E302C3010F900D8AC7A /* pinchToResize.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pinchToResize.gif; sourceTree = "<group>"; };
 		98BB9E322C30110100D8AC7A /* dragToRotate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dragToRotate.gif; sourceTree = "<group>"; };
 		98BB9E332C30110100D8AC7A /* twoFinterRotate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = twoFinterRotate.gif; sourceTree = "<group>"; };
+		98BB9E362C30CF2300D8AC7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				98373C432C2E8C3E004CC996 /* Assets.xcassets */,
 				98373C452C2E8C3E004CC996 /* Preview Content */,
 				98BB9E252C2F7A9D00D8AC7A /* viewExtensions.swift */,
+				98BB9E362C30CF2300D8AC7A /* ContentView.swift */,
 			);
 			path = ViewManipulationDemo;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				98BB9E2B2C2F92A000D8AC7A /* DragOnlyDemo.swift in Sources */,
 				98BB9E212C2F78B400D8AC7A /* TwoFingerRotateDemo.swift in Sources */,
 				98BB9E1E2C2EA32800D8AC7A /* PinchToResizeDemo.swift in Sources */,
+				98BB9E372C30CF2300D8AC7A /* ContentView.swift in Sources */,
 				98373C402C2E8C3D004CC996 /* ViewManipulationDemoApp.swift in Sources */,
 				98BB9E262C2F7A9D00D8AC7A /* viewExtensions.swift in Sources */,
 				98373C4E2C2E8C50004CC996 /* DragToResizeDemo.swift in Sources */,
