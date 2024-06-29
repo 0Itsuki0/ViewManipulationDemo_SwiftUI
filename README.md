@@ -1,5 +1,8 @@
 # Demo for View manipulation
 
+## Combination: Resizing, rotating and repositioning a view
+- [Using Magnify Gesture, Rotate Gesture, and Drag Gesture](/ViewManipulationDemo/Resize+Rotation+Repoisition/Magnify+Rotate+DragDemo.swift)
+
 
 ## Resize a view
 
