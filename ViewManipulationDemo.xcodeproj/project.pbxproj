@@ -20,6 +20,11 @@
 		98BB9E262C2F7A9D00D8AC7A /* viewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BB9E252C2F7A9D00D8AC7A /* viewExtensions.swift */; };
 		98BB9E292C2F929700D8AC7A /* Magnify+Rotate+DragDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BB9E282C2F929700D8AC7A /* Magnify+Rotate+DragDemo.swift */; };
 		98BB9E2B2C2F92A000D8AC7A /* DragOnlyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BB9E2A2C2F92A000D8AC7A /* DragOnlyDemo.swift */; };
+		98BB9E2E2C3010ED00D8AC7A /* fullDragOnly.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98BB9E2C2C3010ED00D8AC7A /* fullDragOnly.gif */; };
+		98BB9E2F2C3010ED00D8AC7A /* fullGestureComb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98BB9E2D2C3010ED00D8AC7A /* fullGestureComb.gif */; };
+		98BB9E312C3010F900D8AC7A /* pinchToResize.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98BB9E302C3010F900D8AC7A /* pinchToResize.gif */; };
+		98BB9E342C30110100D8AC7A /* dragToRotate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98BB9E322C30110100D8AC7A /* dragToRotate.gif */; };
+		98BB9E352C30110100D8AC7A /* twoFinterRotate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98BB9E332C30110100D8AC7A /* twoFinterRotate.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,11 @@
 		98BB9E252C2F7A9D00D8AC7A /* viewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewExtensions.swift; sourceTree = "<group>"; };
 		98BB9E282C2F929700D8AC7A /* Magnify+Rotate+DragDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Magnify+Rotate+DragDemo.swift"; sourceTree = "<group>"; };
 		98BB9E2A2C2F92A000D8AC7A /* DragOnlyDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragOnlyDemo.swift; sourceTree = "<group>"; };
+		98BB9E2C2C3010ED00D8AC7A /* fullDragOnly.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fullDragOnly.gif; sourceTree = "<group>"; };
+		98BB9E2D2C3010ED00D8AC7A /* fullGestureComb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fullGestureComb.gif; sourceTree = "<group>"; };
+		98BB9E302C3010F900D8AC7A /* pinchToResize.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pinchToResize.gif; sourceTree = "<group>"; };
+		98BB9E322C30110100D8AC7A /* dragToRotate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dragToRotate.gif; sourceTree = "<group>"; };
+		98BB9E332C30110100D8AC7A /* twoFinterRotate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = twoFinterRotate.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +82,7 @@
 		98373C3E2C2E8C3D004CC996 /* ViewManipulationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				98BB9E272C2F7DAD00D8AC7A /* Resize+Rotation+Repoisition */,
+				98BB9E272C2F7DAD00D8AC7A /* Resize+Rotation+Reposition */,
 				98BB9E242C2F78D700D8AC7A /* Resize */,
 				98BB9E1F2C2F788600D8AC7A /* Rotation */,
 				98373C3F2C2E8C3D004CC996 /* ViewManipulationDemoApp.swift */,
@@ -94,6 +104,11 @@
 		98BB9E1A2C2EA29400D8AC7A /* readmeAsset */ = {
 			isa = PBXGroup;
 			children = (
+				98BB9E302C3010F900D8AC7A /* pinchToResize.gif */,
+				98BB9E2C2C3010ED00D8AC7A /* fullDragOnly.gif */,
+				98BB9E322C30110100D8AC7A /* dragToRotate.gif */,
+				98BB9E332C30110100D8AC7A /* twoFinterRotate.gif */,
+				98BB9E2D2C3010ED00D8AC7A /* fullGestureComb.gif */,
 				98BB9E1B2C2EA2AC00D8AC7A /* dragToResize.gif */,
 			);
 			path = readmeAsset;
@@ -117,13 +132,13 @@
 			path = Resize;
 			sourceTree = "<group>";
 		};
-		98BB9E272C2F7DAD00D8AC7A /* Resize+Rotation+Repoisition */ = {
+		98BB9E272C2F7DAD00D8AC7A /* Resize+Rotation+Reposition */ = {
 			isa = PBXGroup;
 			children = (
 				98BB9E282C2F929700D8AC7A /* Magnify+Rotate+DragDemo.swift */,
 				98BB9E2A2C2F92A000D8AC7A /* DragOnlyDemo.swift */,
 			);
-			path = "Resize+Rotation+Repoisition";
+			path = "Resize+Rotation+Reposition";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,8 +201,13 @@
 			files = (
 				98BB9E192C2EA25400D8AC7A /* .gitignore in Resources */,
 				98BB9E172C2EA24B00D8AC7A /* README.md in Resources */,
+				98BB9E352C30110100D8AC7A /* twoFinterRotate.gif in Resources */,
+				98BB9E342C30110100D8AC7A /* dragToRotate.gif in Resources */,
+				98BB9E2F2C3010ED00D8AC7A /* fullGestureComb.gif in Resources */,
 				98373C472C2E8C3E004CC996 /* Preview Assets.xcassets in Resources */,
+				98BB9E312C3010F900D8AC7A /* pinchToResize.gif in Resources */,
 				98373C442C2E8C3E004CC996 /* Assets.xcassets in Resources */,
+				98BB9E2E2C3010ED00D8AC7A /* fullDragOnly.gif in Resources */,
 				98BB9E1C2C2EA2AC00D8AC7A /* dragToResize.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
