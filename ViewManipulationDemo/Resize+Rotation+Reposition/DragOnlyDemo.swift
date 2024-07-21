@@ -13,7 +13,7 @@ struct DragOnlyDemo: View {
     @State private var viewPosition: CGPoint = CGPoint(x: 150, y: 250)
     @State private var viewOffsetTemp: CGSize = .zero
 
-    @State private var viewSize: CGSize = CGSize(width: 60, height: 60)
+    @State private var viewSize: CGSize = CGSize(width: 120, height: 120)
     @State private var viewScaleTemp: CGSize = CGSize(width: 1, height: 1)
 
     @State private var angleTemp: CGFloat = 60
@@ -23,7 +23,7 @@ struct DragOnlyDemo: View {
     @State private var isRotating: Bool = false
     
     
-    private let minSize: CGSize = CGSize(width: 30, height: 30)
+    private let minSize: CGSize = CGSize(width: 50, height: 50)
     private let translationFactor: CGFloat = 0.5
     private let borderWidth: CGFloat = 3
     private let cornerSize: CGSize = CGSize(width: 20, height: 20)
@@ -32,11 +32,8 @@ struct DragOnlyDemo: View {
         
         Image(systemName: "dog.fill")
             .resizable()
+            .foregroundStyle(.black)
             .frame(width: viewSize.width, height: viewSize.height)
-            .padding(.horizontal, viewSize.width/2)
-            .padding(.vertical, viewSize.height/2)
-            .foregroundStyle(.white)
-            .background(Ellipse().fill(.black))
             .scaleEffect(viewScaleTemp, anchor: anchor)
             .rotationEffect(.degrees(angleTemp))
             .offset(viewOffsetTemp)
@@ -191,8 +188,10 @@ extension DragOnlyDemo {
         guard !isResizing else {return}
 
         let diagonalRadius = sqrt(pow(viewSize.width, 2) + pow(viewSize.height, 2))
-        let currentAngle = atan2(current.x - diagonalRadius, diagonalRadius - current.y)
-        let startAngle = atan2(start.x - diagonalRadius, diagonalRadius - start.y)
+        let currentAngle = atan2(current.x - diagonalRadius/2, diagonalRadius/2 - current.y)
+        let startAngle = atan2(start.x - diagonalRadius/2, diagonalRadius/2 - start.y)
+//        let currentAngle = atan2(current.x - diagonalRadius, diagonalRadius - current.y)
+//        let startAngle = atan2(start.x - diagonalRadius, diagonalRadius - start.y)
         var theta = (currentAngle - startAngle) * 180 / .pi + angle
         if theta < 0 {
             theta = theta + 360
@@ -265,8 +264,8 @@ extension DragOnlyDemo {
 
         
         let totalChange = sqrt(pow(rawChangeX, 2) + pow(rawChangeY, 2))
-        let actualChangeX = totalChange * sin(angleRaw - angle*(.pi)/180)
-        let actualChangeY = totalChange * cos(angleRaw - angle*(.pi)/180)
+        let actualChangeX = totalChange * sin(angleRaw - angle*(.pi)/180)/2
+        let actualChangeY = totalChange * cos(angleRaw - angle*(.pi)/180)/2
 
         viewPosition.x = viewPosition.x + actualChangeX
         viewSize.width = viewSize.width * viewScaleTemp.width
@@ -279,7 +278,7 @@ extension DragOnlyDemo {
     
 }
 
-//
-//#Preview {
-//    DragOnlyDemo()
-//}
+
+#Preview {
+    DragOnlyDemo()
+}
